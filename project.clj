@@ -15,6 +15,7 @@
      {:output-to "main.min.js"
       :output-dir "build/"
       :optimizations :advanced
+      :pretty-print false
       :externs ["node_modules/nodejs-externs/externs/assert.js" "node_modules/nodejs-externs/externs/buffer.js" 
                 "node_modules/nodejs-externs/externs/child_process.js" "node_modules/nodejs-externs/externs/cluster.js" 
                 "node_modules/nodejs-externs/externs/core.js" "node_modules/nodejs-externs/externs/crypto.js" 
