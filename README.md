@@ -1,14 +1,17 @@
 # Visualisering af relationer - related-server
 
-## *under udvikling, fungerer ikke endnu*
-
 Dette repositorie indeholder en server til anbefalinger af danske biblioteksmaterialer.
 
-Krav for kørsel: unix-shell, xz, node, sort, build-environment
+Krav for kørsel: unix-shell, xz, node, sort
 
-Database bliver bygget/installeret med `./createdb.sh`, - dette tager en del tid...
+Krav ifbm. udvikling: java, lein
 
-Herefter kan serveren startes med: `node server.js`
+Kørsel:
+
+    npm install
+    npm start
+
+Ved første kørsel udregnes relationer etc., - dette tager en uges tid afhængigt af computer, og kræver en del plads, 100GB burde være tilstrækkeligt.
 
 Data i repositoriet er baseret på det ADHL-datasæt som DBC frigav på hack4dk-2014 (hackathon for åbne kulturdata). 
 Nogle data her er aggregerede og tilføjet lidt støj.
